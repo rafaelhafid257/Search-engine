@@ -1,0 +1,1252 @@
+{
+  "provinsi": {
+    "11": {
+      "nama": "Aceh",
+      "objek_pariwisata": [
+        {
+          "nama": "Masjid Raya Baiturrahman",
+          "gambar": "1.jpg",
+          "deskripsi": "Masjid Raya Baiturrahman adalah salah satu objek wisata terkenal di provinsi Aceh yang menawarkan pengalaman menarik bagi para pengunjung. Lokasinya terletak di Kota Banda Aceh."
+        },
+        {
+          "nama": "Danau Laut Tawar",
+          "gambar": "2.jpg",
+          "deskripsi": "Danau Laut Tawar adalah salah satu objek wisata terkenal di provinsi Aceh yang menawarkan pengalaman menarik bagi para pengunjung. Lokasinya terletak di Takengon, Aceh Tengah."
+        },
+        {
+          "nama": "Benteng Indra Patra",
+          "gambar": "3.jpg",
+          "deskripsi": "Benteng Indra Patra adalah salah satu objek wisata terkenal di provinsi Aceh yang menawarkan pengalaman menarik bagi para pengunjung. Lokasinya terletak di Aceh Besar."
+        },
+        {
+          "nama": "Taman Laut Sabang",
+          "gambar": "",
+          "deskripsi": "Taman Laut Sabang adalah salah satu objek wisata terkenal di provinsi Aceh yang menawarkan pengalaman menarik bagi para pengunjung. Lokasinya terletak di Sabang."
+        },
+        {
+          "nama": "Taman Buru Lingge Isaq",
+          "gambar": "",
+          "deskripsi": "Taman Buru Lingge Isaq adalah salah satu objek wisata terkenal di provinsi Aceh yang menawarkan pengalaman menarik bagi para pengunjung. Lokasinya terletak di Gayo Lues."
+        },
+        {
+          "nama": "Hutan Wisata Gunung Leuser",
+          "gambar": "",
+          "deskripsi": "Hutan Wisata Gunung Leuser adalah salah satu objek wisata terkenal di provinsi Aceh yang menawarkan pengalaman menarik bagi para pengunjung. Lokasinya terletak di Kabupaten Aceh Tenggara."
+        },
+        {
+          "nama": "Danau Aneuk Laot",
+          "gambar": "",
+          "deskripsi": "Danau Aneuk Laot adalah salah satu objek wisata terkenal di provinsi Aceh yang menawarkan pengalaman menarik bagi para pengunjung. Lokasinya terletak di Sabang."
+        },
+        {
+          "nama": "Taman Putroe Phang",
+          "gambar": "",
+          "deskripsi": "Taman Putroe Phang adalah salah satu objek wisata terkenal di provinsi Aceh yang menawarkan pengalaman menarik bagi para pengunjung. Lokasinya terletak di Banda Aceh."
+        },
+        {
+          "nama": "Kuburan Kerkhoff Peucut",
+          "gambar": "",
+          "deskripsi": "Kuburan Kerkhoff Peucut adalah salah satu objek wisata terkenal di provinsi Aceh yang menawarkan pengalaman menarik bagi para pengunjung. Lokasinya terletak di Banda Aceh."
+        },
+        {
+          "nama": "Pantai Iboh",
+          "gambar": "",
+          "deskripsi": "Pantai Iboh adalah salah satu objek wisata terkenal di provinsi Aceh yang menawarkan pengalaman menarik bagi para pengunjung. Lokasinya terletak di Sabang."
+        },
+        {
+          "nama": "Situs Kerajaan Pasai",
+          "gambar": "",
+          "deskripsi": "Situs Kerajaan Pasai adalah salah satu objek wisata terkenal di provinsi Aceh yang menawarkan pengalaman menarik bagi para pengunjung. Lokasinya terletak di Aceh Utara."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Timphan",
+          "deskripsi": "sejenis penganan kecil yang aslinya berasal dari Aceh. Bahan untuk membuat timpan terdiri dari tepung, pisang, dan santan. Pisang yang dipakai adalah pisang wak. ",
+          "gambar": "1.jpg"
+        },
+        {
+          "nama": "Gulee Itek",
+          "deskripsi": "gulai bebek khas dari Aceh. Gulai ini berbahan dasar bebek kampung yang diolah sedemikian rupa sehingga empuk dengan racikan bumbu khas aceh yang rumit dan komplit sehingga menghasilkan cita rasa yang berbeda.",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Kuwah Pli'u",
+          "deskripsi": "makanan khas Aceh yang berbahan dasar ampas dari sisa perasan minyak kelapa tua. Bahan utama makanan ini adalah bungkil kelapa yang diparut, daun dan buah melinjo serta chu (sejenis siput yang hidup di sungai), kacang panjang, pepaya muda dan nangka muda dan Asam sunti (belimbing wuluh yang dikeringkan setelah dikukus bersama garam) ditambahkan pula sebagai bumbu khasnya.",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Keumamah",
+          "deskripsi": "masakan khas Aceh yang dibuat dari bahan bakuikan. Ikan yang digunakan biasanya adalah ikan tongkol yang dikeringkan dengan cara dijemur, lalu direbus dan kemudian disalai. Ikan kering ini diiris tipis - tipis dan dimasak dengan kentang dalam kuah kari yang kental. Bumbu-bumbu lain yang digunakan antara lain asam sunti, salam koja, cabai rawit dan cabai hijau",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Mie Aceh",
+          "deskripsi": "masakan mie pedas khas Aceh di Indonesia. Mie kuning tebal dengan irisan daging sapi, daging kambing atau makanan laut (udang dan cumi) disajikan dalam sup sejenis kari yang gurih dan pedas. Biasanya ditaburi bawang goreng dan disajikan bersama emping, potongan bawang merah, mentimun, dan jeruk nipis.",
+          "gambar": "5.jpg"
+        }
+      ]
+    },
+    "12": {
+      "nama": "Sumatera Utara",
+      "objek_pariwisata": [
+        {
+          "nama": "Danau Toba",
+          "gambar": "1.jpg",
+          "deskripsi": "Danau Toba adalah salah satu objek wisata terkenal di provinsi Sumatera Utara yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Nias",
+          "gambar": "2.jpg",
+          "deskripsi": "Nias adalah salah satu objek wisata terkenal di provinsi Sumatera Utara yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Sibolangit",
+          "gambar": "3.jpg",
+          "deskripsi": "Sibolangit adalah salah satu objek wisata terkenal di provinsi Sumatera Utara yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pulau Samosir",
+          "gambar": "",
+          "deskripsi": "Pulau Samosir adalah salah satu objek wisata terkenal di provinsi Sumatera Utara yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Brastagi",
+          "gambar": "",
+          "deskripsi": "Brastagi adalah salah satu objek wisata terkenal di provinsi Sumatera Utara yang menawarkan pengalaman menarik bagi para pengunjung."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Saksang",
+          "deskripsi": "masakan khas dari tanah Batak yang terbuat dari daging babi (atau daging anjing) yang dicincang dan dimasak dengan menggunakan darah,santan dan rempah-rempah (termasuk jeruk purut dan daun salam, ketumbar, bawang merah, bawang putih, cabai, merica, serai, jahe, lengkuas, kunyit dan andaliman).Saksang menjadi makanan wajib dalam adat pernikahan Batak.",
+          "gambar": "1.jpg"
+        },
+        {
+          "nama": "Bika Ambon",
+          "deskripsi": "Bika ambon dikenal sebagai oleh-oleh khas Kota Medan, Sumatera Utara. erbuat dari bahan-bahan seperti telur, gula, dan santan, bika ambon umumnya dijual dengan rasa pandan, meskipun kini juga tersedia rasa-rasa lainnya seperti durian, keju, dan cokelat.",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Soto Medan",
+          "deskripsi": "Soto asal kota Medan menggunakan santan sebagai bahan cairnya, Untuk isinya soto Medan memakai daging ayam, telur rebus, kentang, emping, tomat dan taburan bawang goreng",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Lemang",
+          "deskripsi": "makanan dari beras ketan yang dimasak dalam seruas bambu, setelah sebelumnya digulung dengan selembar daun pisang. Gulungan daun bambu berisi tepung beras dicampur santan kelapa ini kemudian dimasukkan ke dalam seruas bambu lalu dibakar sampai matang.",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Arsik",
+          "deskripsi": "salah satu masakan khas kawasan Tapanuli yang populer. Masakan ini dikenal pula sebagai ikan mas bumbu kuning. Ikan mas adalah bahan utama, yang dalam penyiapannya tidak dibuang sisiknya.Bumbu, seperti andaliman dan asam cikala (buah kecombrang), selain lengkuas dan serai. Bumbu-bumbu yang dihaluskan dilumuri pada tubuh ikan beberapa saat. Ikan kemudian dimasak dengan sedikit minyak dan api kecil hingga agak mengering.",
+          "gambar": "5.jpg"
+        }
+      ]
+    },
+    "13": {
+      "nama": "Sumatera Barat",
+      "objek_pariwisata": [
+        {
+          "nama": "Danau Singkarak",
+          "gambar": "1.jpg",
+          "deskripsi": "Danau Singkarak adalah salah satu objek wisata terkenal di provinsi Sumatera Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Ngarai Sianok",
+          "gambar": "2.jpg",
+          "deskripsi": "Ngarai Sianok adalah salah satu objek wisata terkenal di provinsi Sumatera Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Jam Gadang",
+          "gambar": "3.jpg",
+          "deskripsi": "Jam Gadang adalah salah satu objek wisata terkenal di provinsi Sumatera Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Danau Talang",
+          "gambar": "",
+          "deskripsi": "Danau Talang adalah salah satu objek wisata terkenal di provinsi Sumatera Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Danau Diatas dan Danau Dibawah",
+          "gambar": "",
+          "deskripsi": "Danau Diatas dan Danau Dibawah adalah salah satu objek wisata terkenal di provinsi Sumatera Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Benteng Fort de Kock",
+          "gambar": "",
+          "deskripsi": "Benteng Fort de Kock adalah salah satu objek wisata terkenal di provinsi Sumatera Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pantai Air Manis",
+          "gambar": "",
+          "deskripsi": "Pantai Air Manis adalah salah satu objek wisata terkenal di provinsi Sumatera Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Rendang",
+          "deskripsi": "salah satu masakan tradisional Minangkabau yang menggunakan daging dan santankelapa sebagai bahan utama dengan kandungan bumburempah-rempah yang kaya. ",
+          "gambar": "1.jpg"
+        },
+        {
+          "nama": "Sate Padang",
+          "deskripsi": "Sate Padang memakai bahan daging sapi, lidah, atau jerohan (jantung, usus, dan tetelan) dengan bumbu kuah kacang kental (mirip bubur) ditambah cabai yang banyak sehingga rasanya pedas.",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Dendeng Balado",
+          "deskripsi": "masakan khas Sumatera Barat dibuat dari irisan tipis dan lebar daging sapi yang dikeringkan lalu digoreng kering.Daging goreng ini lalu diberi bumbu balado.",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Nasi Kapau",
+          "deskripsi": "nasi ramas khas nagari Kapau, Sumatera Barat, terdiri dari nasi, sambal, dan lauk pauk khas Kapau, gulai sayur nangka (cubadak), gulai tunjang (urat kaki kerbau atau sapi), gulai cangcang (tulang dan daging kerbau), gulai babek (paruik kabau).",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Bubur Kampiun",
+          "deskripsi": "yang terdiri dari: Kolak Pisang, Kolak Ubi, Bubur Sumsum, Bubur Candil, Bubur Delima, Bubur Ketan Hitam, Ketan Putih, dan Srikaya.",
+          "gambar": "5.jpg"
+        }
+      ]
+    },
+    "14": {
+      "nama": "Riau",
+      "objek_pariwisata": [
+        {
+          "nama": "Candi Muara Takus",
+          "gambar": "1.jpg",
+          "deskripsi": "Candi Muara Takus adalah salah satu objek wisata terkenal di provinsi Riau yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Masjid Raya Pekanbaru",
+          "gambar": "2.jpg",
+          "deskripsi": "Masjid Raya Pekanbaru adalah salah satu objek wisata terkenal di provinsi Riau yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "istana Siak",
+          "gambar": "3.jpg",
+          "deskripsi": "istana Siak adalah salah satu objek wisata terkenal di provinsi Riau yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "pulau jemur",
+          "gambar": "",
+          "deskripsi": "pulau jemur adalah salah satu objek wisata terkenal di provinsi Riau yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "taman nasional bukit tiga puluh",
+          "gambar": "",
+          "deskripsi": "taman nasional bukit tiga puluh adalah salah satu objek wisata terkenal di provinsi Riau yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "benteng tujuh lapis",
+          "gambar": "",
+          "deskripsi": "benteng tujuh lapis adalah salah satu objek wisata terkenal di provinsi Riau yang menawarkan pengalaman menarik bagi para pengunjung."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Lempuk Durian",
+          "deskripsi": "lebih dikenal dengan sebutan dodol durian merupakan oleh-oleh khas Kabupaten Bengkalis, Riau. Durian yang matang alami, diblender atau digiling, perbandingan durian dan gula pasir sebesar 1:1/4 kg, memerlukan waktu memasak selama enam jam dengan kuali alumunium, dan memasak menggunakan arang kayu. ",
+          "gambar": "1.jpg"
+        },
+        {
+          "nama": "Kue Jalo",
+          "deskripsi": "makanan khas kabupaten Kampar. Bengkalis, Siak, Rokan Hilir sebagian Rokan Hulu tetapi perbedaan terdapat dipelengkapnya kalau di kabupaten Kampar pelengkapnya sarikayo , manisan dan kuah yang digunakan untuk kolak. Sedangkan untuk Bengkalis, Siak, Rokan hilir dan sebagian Rokan hulu pelengkapnya adalah kari daging (pacri nenas). Bahan utamanya adalah tepung terigu bentuknya seperti jalo karena dibentuk dengan adonan yang telah masuk kecetakan berbentuk corong",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Gulai Belacan",
+          "deskripsi": "Gulai Belacan berbahan dasar udang yang dicampur dengan bumbu rempah-rempah seperti lada, kemiri, asam jawa, santan kelapa",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Bolu Kemojo",
+          "deskripsi": "panganan khas Melayu dari Riau. Kue ini sering disajikan pada hajatan, buka puasa, atau perayaan-perayaan hari besar seperti lebaran. Pada umumnya kue ini berwarna hijau coklat",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Sambal Terong Asam",
+          "deskripsi": "Masakan Khas Riau yang selalu menjadi hidangan aksesori bagi orang-orang Melayu di Riau, khususnya Melayu kepulauan dan-orang Melayu pantai Timur Sumatra.",
+          "gambar": "5.jpg"
+        }
+      ]
+    },
+    "15": {
+      "nama": "Jambi",
+      "objek_pariwisata": [
+        {
+          "nama": "Candi Muaro Jambi",
+          "gambar": "1.jpg",
+          "deskripsi": "Candi Muaro Jambi adalah salah satu objek wisata terkenal di provinsi Jambi yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Danau Kerinci",
+          "gambar": "2.jpg",
+          "deskripsi": "Danau Kerinci adalah salah satu objek wisata terkenal di provinsi Jambi yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Taman Mini Jambi & Taman Rimba",
+          "gambar": "3.jpg",
+          "deskripsi": "Taman Mini Jambi & Taman Rimba adalah salah satu objek wisata terkenal di provinsi Jambi yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Tanggo Rajo",
+          "gambar": "",
+          "deskripsi": "Tanggo Rajo adalah salah satu objek wisata terkenal di provinsi Jambi yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Hutan Kota Mayang Mangurai",
+          "gambar": "",
+          "deskripsi": "Hutan Kota Mayang Mangurai adalah salah satu objek wisata terkenal di provinsi Jambi yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Danau Sipin",
+          "gambar": "",
+          "deskripsi": "Danau Sipin adalah salah satu objek wisata terkenal di provinsi Jambi yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Danau Teluk",
+          "gambar": "",
+          "deskripsi": "Danau Teluk adalah salah satu objek wisata terkenal di provinsi Jambi yang menawarkan pengalaman menarik bagi para pengunjung."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Gulai Ikan Patin ",
+          "deskripsi": "masakan yang populer di masyarakat Jambi.Gulai ini dimasak dengan menggunakan tempoyak yaitu daging buah durian yang telah difermentasi. Tetapi ada sebagian orang yang memilih untuk mengganti tempoyak dengan santan kelapa untuk menghindari bau dan rasa tempoyak yang cukup menyengat. Selain tempoyak bumbu lain yang digunakan dalam pembuatan Gulai Ikan Patin ini adalah cabe merah, lengkuas, serai, kunyit, bawang merah dan bawang putih.",
+          "gambar": "G1.jpg"
+        },
+        {
+          "nama": "Burgo",
+          "deskripsi": "Kuliner ini terbuat dari campuran tepung beras dan sagu tani. Bentuk kue jajanan Jambi ini cukup menarik, seperti dadar gulung. Kuliner Jambi ini bertekstur kenyal dan gurih. Untuk menyajikannya, potong adonan menjadi beberapa bagian lalu siram dengan kuah santan dan bawang goreng. Kuah santan ini terbuat dari kaldu ikan dan udang.",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Dodol Kentang Kerinci",
+          "deskripsi": "Cemilan ini biasa dibeli sebagai oleh-oleh khas Jambi. Kuliner ini terbuat dari kentang yang berasal dari kawasan Pegunungan Kerinci dan berkualitas baik. Rasanya sangat manis dan gurih. Kuliner ini tersedia dalam beberapa rasa yang bisa Anda pilih sesuai selera yaitu, rasa pandan, durian, gula aren, nanas dan strawberry.",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Kue Gandus",
+          "deskripsi": "Kue Gandus terbuat dari tepung beras, santan dan sagu. Cara pembuatan kue ini dengan mencampurkan adonan tepung dengan bumbu bawang putih dan cabe lalu disetak bulat. Untuk menambah rasa yang lezat, kuliner ini ditaburi ebi, ayam, daging giling dan abon ikan sebagai pelengkap.",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Gulai Tepek Ikan ",
+          "deskripsi": "kuliner khas Jambi yang mirip dengan pempek Palembang namun yang berbeda adalah adonan Tepek-nya yang ditambah kuah Gulai dan nanas. Untuk membuat bahan tepek ikannya, anda perlu menyiapkan ikan gabus giling, tepung sagu, bawang putih, garam dan air secukupnya. Lalu haluskan bawang putih dan garam, kemudian campur dengan ikan gabus giling dan tepung sagu. Lalu uleni hingga adonan bisa dibentuk bulat memanjang.",
+          "gambar": "5.jpg"
+        }
+      ]
+    },
+    "16": {
+      "nama": "Sumatera Selatan",
+      "objek_pariwisata": [
+        {
+          "nama": "Sungai Manna",
+          "gambar": "1.jpg",
+          "deskripsi": "Sungai Manna adalah salah satu objek wisata terkenal di provinsi Sumatera Selatan yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Air Terjun Bedegung",
+          "gambar": "2.jpg",
+          "deskripsi": "Air Terjun Bedegung adalah salah satu objek wisata terkenal di provinsi Sumatera Selatan yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Candi Bumi Ayu",
+          "gambar": "3.jpg",
+          "deskripsi": "Candi Bumi Ayu adalah salah satu objek wisata terkenal di provinsi Sumatera Selatan yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Air Terjun Temam",
+          "gambar": "",
+          "deskripsi": "Air Terjun Temam adalah salah satu objek wisata terkenal di provinsi Sumatera Selatan yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Air Terjun Bidadari",
+          "gambar": "",
+          "deskripsi": "Air Terjun Bidadari adalah salah satu objek wisata terkenal di provinsi Sumatera Selatan yang menawarkan pengalaman menarik bagi para pengunjung."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Pempek",
+          "deskripsi": "makanan khas Palembang yang terbuat dari ikan dan sagu. Penyajian pempek ditemani oleh saus berwarna hitam kecoklat-coklatan yang disebut cuka atau cuko (bahasa Palembang). Cuko dibuat dari air yang dididihkan, kemudian ditambah gula merah, udang ebi dan cabe rawit tumbuk, bawang putih, dan garam",
+          "gambar": "1.jpg"
+        },
+        {
+          "nama": "Celimpungan",
+          "deskripsi": "makanan yang berasal dari Sumatera Selatan. Bahan dasar celimpungan adalah adonan sagu dan ikan seperti halnya pempek. Perbedaan di antara keduanya terletak pada bentuk dan kuahnya. Celimpungan berbentuk bulat dengan diameter 10 cm dan tipis (pipih). Kuahnya terbuat dari santan dan racikan bumbu-bumbu lainnya. Celimpungan dimakan bersama sambal gorengnya.",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Tekwan",
+          "deskripsi": "hidangan sup khas Palembang yang terbuat dari ikan dan sagu yang dibuat dalam ukuran kecil-kecil, dan disajikan dengan menggunakan kuahudang dengan rasa yang khas. Biasanya pelengkap tekwan adalah bihun, irisan bengkoang dan jamur, serta ditaburi irisan daun bawang, seledri, dan bawang goreng. ",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Kumbu",
+          "deskripsi": "makanan khas Palembang dan biasanya juga dijadikan isi dari bakpia. Makanan ini biasanya terbuat dari campuran kacang hijau dan gula ditambah sedikit garam. Awalnya kumbu hanya terdiri dari dua macam yaitu kumbu hijau dan hitam. Saat ini kumbu sudah bermacam-macam rasa mulai dari cokelat sampai keju. ",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Laksan",
+          "deskripsi": "makanan khas Palembang yang terbuat dari bahan bakusagu dan ikan. Laksan dibuat dalam bentuk oval dengan rasa yang hampir pempek, tetapi disajikan dengan menggunakan kuah santan",
+          "gambar": "5.jpg"
+        }
+      ]
+    },
+    "17": {
+      "nama": "Bengkulu",
+      "objek_pariwisata": [
+        {
+          "nama": "Benteng Marlborough",
+          "gambar": "1.jpg",
+          "deskripsi": "Benteng Marlborough adalah salah satu objek wisata terkenal di provinsi Bengkulu yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Danau Tujuh Warna",
+          "gambar": "2.jpg",
+          "deskripsi": "Danau Tujuh Warna adalah salah satu objek wisata terkenal di provinsi Bengkulu yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "danau Tes",
+          "gambar": "3.jpg",
+          "deskripsi": "danau Tes adalah salah satu objek wisata terkenal di provinsi Bengkulu yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Elephant Training Center (ETC) di Seblat",
+          "gambar": "",
+          "deskripsi": "Elephant Training Center (ETC) di Seblat adalah salah satu objek wisata terkenal di provinsi Bengkulu yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Rumah Pengasingan Bung Karno",
+          "gambar": "",
+          "deskripsi": "Rumah Pengasingan Bung Karno adalah salah satu objek wisata terkenal di provinsi Bengkulu yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Air Terjun Kepala Curup",
+          "gambar": "",
+          "deskripsi": "Air Terjun Kepala Curup adalah salah satu objek wisata terkenal di provinsi Bengkulu yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "gunung kaba",
+          "gambar": "",
+          "deskripsi": "gunung kaba adalah salah satu objek wisata terkenal di provinsi Bengkulu yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Taman Wisata Konak",
+          "gambar": "",
+          "deskripsi": "Taman Wisata Konak adalah salah satu objek wisata terkenal di provinsi Bengkulu yang menawarkan pengalaman menarik bagi para pengunjung."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Pendap",
+          "deskripsi": "makanan khas Bengkulu. Pendap terbuat dari bumbu-bumbu yang beraneka ragam, seperti bawang putih, kencur, dan cabai giling. Lalu, bahan-bahan itu dicampur merata dengan parutan kelapa muda. Selanjutnya dibungkus dengan daun talas, dimasukkan sepotong ikan, lalu direbus selama 8 jam. Jenis ikan yang digunakan seperti kakap, gemuru, dan terusan.",
+          "gambar": "1.jpg"
+        },
+        {
+          "nama": "Gulai Kemba'ang",
+          "deskripsi": "masakan ini lebih dikenal masyarakat di wilayah Kabupaten Mukomuko, karena banyak versi mengatakan bahwa gulai kemba’ang berasal dari daerah itu. Gulai kemba’ang ini terbuat dari  iga sapi dan racikan beberapa jenis bumbu dan memiliki rasa yang gurih.",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Tempoyak",
+          "deskripsi": "makanan sensasional ini juga merupakan hasil fermentasi dari buah durian, rasanya yang sedikit asam manis ini tentunya membuat lidah orang ketagihan, apalagi di tambah ikan atau udang membuat cita rasa dari makanan sejenis pasta ini makin lezat.",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Bagar Hiu",
+          "deskripsi": "Bagar Hiu terbuat dari bahan daging ikan Hiu, ketumbar bulat, pala, cengkeh, kayu manis, asam jawa, lengkuas, cabai, bawang putih dan merah serta kelapa goreng yang bergungsi untuk mengentalkan masakan Bagar Hiu.",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Kue Tat",
+          "deskripsi": "Kue Tat  terbuat dari campuran tepung gandum, gula pasir, telur ayam dan mentega. Dalam pembuatan kue ini biasanya ada yang berukuran besar dan ukuran kecil, yang besar berbentuk segi empat dan diatasnya dihiasi dengan parutan nenas ataupun kelapa dicampur gula merah yang bertujuan mempermanis penampilan dan menambah kenikmatan rasanya",
+          "gambar": "5.jpg"
+        }
+      ]
+    },
+    "18": {
+      "nama": "Lampung",
+      "objek_pariwisata": [
+        {
+          "nama": "Danau Ranau",
+          "gambar": "1.jpg",
+          "deskripsi": "Danau Ranau adalah salah satu objek wisata terkenal di provinsi Lampung yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Teluk Kiluan",
+          "gambar": "2.jpg",
+          "deskripsi": "Teluk Kiluan adalah salah satu objek wisata terkenal di provinsi Lampung yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Way Kambas",
+          "gambar": "3.jpg",
+          "deskripsi": "Way Kambas adalah salah satu objek wisata terkenal di provinsi Lampung yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "TN. Bukit Barisan",
+          "gambar": "",
+          "deskripsi": "TN. Bukit Barisan adalah salah satu objek wisata terkenal di provinsi Lampung yang menawarkan pengalaman menarik bagi para pengunjung."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Seruwit",
+          "deskripsi": "makanan khas Lampung berbahan dasar sambel terasi yang dicampur berbagai macam lauk. Seruwit biasanya dicampur dengan tempoyak atau lauk lain seperti ikan goring, ikan bakar, terung rebus, timun, tahu, atau tempe. Seruwit disajikan sebagai lauk dengan nasi oleh masyarakat Lmapung karena sudah mengandung banyak lauk.",
+          "gambar": "1.jpg"
+        },
+        {
+          "nama": "Gulai Balak",
+          "deskripsi": "makanan khas Lampung yang terbuat dari daging kambing atau sapi yang dimasak dengan santan dan rempah-rempah khas Lampung, semacam gulai kambing",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Gulai Taboh",
+          "deskripsi": "kuliner khas Lampung yang juga dapat diartikan sebagai gulai santan. Gulai ini biasanya berisi khattak atau kacang kacangan seperti kacang/khattak gelinyor, kacang merah/khattak ngisi, kacang panjang/khattak kejung, khattak tuwoh, rebung, kentang dan lain lain",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Sekubal",
+          "deskripsi": "berbahan dari ketan yang dikukus dengan santan, lalu dibungkus daun pisang, atau daun kelapa (janur). Menyantap makanan ini biasanya ditemani gulai ayam, rendang daging, opor ayam, kare dan lain-lain. Selain itu, makanan ",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Pindang Ikan ",
+          "deskripsi": "salah satu makanan khas Lampung yang paling banyak dicari oleh pecinta kuliner. Aroma kuliner ini dijamin lebih harum dengan kehadiran daun kemangi yang dicampurkan ke dalam kuah. Masakan ini juga memiliki rasa asam-gurih sehingga mirip dengan masakan Tom Yam dari Thailand.",
+          "gambar": "5.jpg"
+        }
+      ]
+    },
+    "19": {
+      "nama": "Kepulauan Bangka Belitung",
+      "objek_pariwisata": [
+        {
+          "nama": "Pantai Parai Tenggiri",
+          "gambar": "1.jpg",
+          "deskripsi": "Pantai Parai Tenggiri adalah salah satu objek wisata terkenal di provinsi Kepulauan Bangka Belitung yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pantai Matras",
+          "gambar": "2.jpg",
+          "deskripsi": "Pantai Matras adalah salah satu objek wisata terkenal di provinsi Kepulauan Bangka Belitung yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pulau Lengkuas",
+          "gambar": "3.jpg",
+          "deskripsi": "Pulau Lengkuas adalah salah satu objek wisata terkenal di provinsi Kepulauan Bangka Belitung yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pantai Tanjung Pesona",
+          "gambar": "",
+          "deskripsi": "Pantai Tanjung Pesona adalah salah satu objek wisata terkenal di provinsi Kepulauan Bangka Belitung yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pesanggrahan Bung Karno Bukit Menumbing",
+          "gambar": "",
+          "deskripsi": "Pesanggrahan Bung Karno Bukit Menumbing adalah salah satu objek wisata terkenal di provinsi Kepulauan Bangka Belitung yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Wisma Ranggam Mentok",
+          "gambar": "",
+          "deskripsi": "Wisma Ranggam Mentok adalah salah satu objek wisata terkenal di provinsi Kepulauan Bangka Belitung yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Museum Buding",
+          "gambar": "",
+          "deskripsi": "Museum Buding adalah salah satu objek wisata terkenal di provinsi Kepulauan Bangka Belitung yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Situs Raja Balok di Desa Balok Kecamatan Dendang",
+          "gambar": "",
+          "deskripsi": "Situs Raja Balok di Desa Balok Kecamatan Dendang adalah salah satu objek wisata terkenal di provinsi Kepulauan Bangka Belitung yang menawarkan pengalaman menarik bagi para pengunjung."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Lempah kuning",
+          "deskripsi": "masakan lempah yang isinya terdiri dari ikan kakap merah atau tenggiri dengan kuah yang berbumbu kunyit, cabai merah, bawang merah, bawang putih, lengkuas dan belacan. Lempah ini memiliki kuah berwarna kuning dan biasanya dimasukkan potongan-potongan nanas sehingga disebut juga lempah nanas. Orang Belitung menyebutnya gangan ketarap. Ikan kakap dapat pula digantikan dengan daging sapi. ",
+          "gambar": "1.jpg"
+        },
+        {
+          "nama": "Song Sui",
+          "deskripsi": "kuliner khas bangka belitung yang dimasak dengan menggunakan daging Babi beserta jeroan babi dicampuri dengan ANG CIU / Arak Anggur Merah.",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Rusip",
+          "deskripsi": "salah satu dari sekian banyak makanan tradisional masyarakat Bangka.  Rusip terbuat dari ikan yang telah difermentasikan dan digunakan sebagai pengganti sambal untuk lalapan daun singkong, mentimum, dan sebagainya. ",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Calok",
+          "deskripsi": "terbuat dari udang kecil yang masih segar yang disebut dengan udang cencalo/rebon. Proses pembuatannya udang dicuci bersih terlebih dulu dan dicampur dengan garam sebagai pengawet agar tahan lebih lama. ",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Belacan",
+          "deskripsi": "jenis pasta ikan atau udang fermentasi yang dipadatkan dan memiliki bau khas yang agak menusuk. Belacan dijadikan bumbu untuk banyak masakan lain",
+          "gambar": "5.jpg"
+        }
+      ]
+    },
+    "21": {
+      "nama": "Kepulauan Riau",
+      "objek_pariwisata": [
+        {
+          "nama": "Pantai Melur",
+          "gambar": "1.jpg",
+          "deskripsi": "Pantai Melur adalah salah satu objek wisata terkenal di provinsi Kepulauan Riau yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pantai Lagoi",
+          "gambar": "2.jpg",
+          "deskripsi": "Pantai Lagoi adalah salah satu objek wisata terkenal di provinsi Kepulauan Riau yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pantai Trikora",
+          "gambar": "3.jpg",
+          "deskripsi": "Pantai Trikora adalah salah satu objek wisata terkenal di provinsi Kepulauan Riau yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pulau Abang dan Pantai Nongsa di kota Batam",
+          "gambar": "",
+          "deskripsi": "Pulau Abang dan Pantai Nongsa di kota Batam adalah salah satu objek wisata terkenal di provinsi Kepulauan Riau yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pantai Pelawan di Kabupaten Karimun",
+          "gambar": "",
+          "deskripsi": "Pantai Pelawan di Kabupaten Karimun adalah salah satu objek wisata terkenal di provinsi Kepulauan Riau yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pantai Tanjung Berakit dan Bintan Leisure Park di kabupaten Bintan",
+          "gambar": "",
+          "deskripsi": "Pantai Tanjung Berakit dan Bintan Leisure Park di kabupaten Bintan adalah salah satu objek wisata terkenal di provinsi Kepulauan Riau yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Kabupaten Natuna",
+          "gambar": "",
+          "deskripsi": "Kabupaten Natuna adalah salah satu objek wisata terkenal di provinsi Kepulauan Riau yang menawarkan pengalaman menarik bagi para pengunjung."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Siput Gonggong",
+          "deskripsi": "makanan yang hanya bisa anda temukan di seputar perairan kepulauan riau. Berbentuk siput dan cara penyajiannya cukup direbus air sampai matang dan dicocol sambal kacang. ",
+          "gambar": "1.jpg"
+        },
+        {
+          "nama": "Mie Lendir",
+          "deskripsi": "makanan khas Kepulauan Riau. Makanan ini terdiri dari mie kuning yang direbus bersama taoge, dan dimakan bersama sebutir telur rebus yang dibelah dua atau diiris. Mie ini kemudian disiram dengan kuah kacang yang kental. ",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Otak-otak",
+          "deskripsi": "salah satu makanan khas di Kep.Riau, baik di Batam, Tanjung Pinang, maupun di Pulau Penyengat. Otak-otak dapat dibuat dari ikan atau cumi-cumi. Dibungkus dengan daun kelapa lalu dibakar.",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Roti jala",
+          "deskripsi": "salah satu kuliner khas melayu yang banyak dijual saat Ramadan. Makanan tersebut merupakan kuliner khas Tanjungpinang kepulauan riau.",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Sup Ikan Batam",
+          "deskripsi": "dihidangkan dengan potongan ikan tenggiri yang sebelumnya telah dipisahkan dari tulang-tulangnya. Potongan ikan ini dilumuri dengan putih telur untuk menghilangkan bau amis, kemudian dimasak bersama bumbu rempah-rempah dan dicampur dengan belimbing wuluh dan tomat hijau. Potongan sawi putih ataupun hijau juga turut dimasukkan ke dalam sup.",
+          "gambar": "5.jpg"
+        }
+      ]
+    },
+    "31": {
+      "nama": "Daerah Khusus Ibukota Jakarta",
+      "objek_pariwisata": [
+        {
+          "nama": "Taman Mini Indonesia Indah",
+          "gambar": "1.jpg",
+          "deskripsi": "Taman Mini Indonesia Indah adalah salah satu objek wisata terkenal di provinsi Daerah Khusus Ibukota Jakarta yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Taman Impian Jaya Ancol",
+          "gambar": "2.jpg",
+          "deskripsi": "Taman Impian Jaya Ancol adalah salah satu objek wisata terkenal di provinsi Daerah Khusus Ibukota Jakarta yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Museum Fatahillah",
+          "gambar": "3.jpg",
+          "deskripsi": "Museum Fatahillah adalah salah satu objek wisata terkenal di provinsi Daerah Khusus Ibukota Jakarta yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pulau Seribu",
+          "gambar": "",
+          "deskripsi": "Pulau Seribu adalah salah satu objek wisata terkenal di provinsi Daerah Khusus Ibukota Jakarta yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Kebun Binatang Ragunan",
+          "gambar": "",
+          "deskripsi": "Kebun Binatang Ragunan adalah salah satu objek wisata terkenal di provinsi Daerah Khusus Ibukota Jakarta yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Museum Gajah",
+          "gambar": "",
+          "deskripsi": "Museum Gajah adalah salah satu objek wisata terkenal di provinsi Daerah Khusus Ibukota Jakarta yang menawarkan pengalaman menarik bagi para pengunjung."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Kerak telor",
+          "deskripsi": "makanan asli daerah Jakarta (Betawi), dengan bahan-bahan beras ketan putih, telurayam, ebi (udang kering yang diasinkan) yang disangrai kering ditambah bawang merah goreng, lalu diberi bumbu yang dihaluskan berupa kelapa sangrai, cabai merah, kencur, jahe, merica butiran, garam dan gula pasir.",
+          "gambar": "1.jpg"
+        },
+        {
+          "nama": "Soto Betawi",
+          "deskripsi": "soto yang populer di daerah Jakarta. Seperti halnya Soto Madura dan soto sulung, Soto Betawi juga menggunakan jerohan. Selain jerohan, seringkali organ-organ lain juga disertakan, seperti mata, penis, dan juga hati.",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Kue ape atau serabi Jakarta",
+          "deskripsi": "merupakan jajanan khas dari Jakarta. Bentuknya menyerupai pancake. Karena bentuknya, orang juga menyebutnya sebagai kue tetek. Kue yang biasa dijajakan di jalan atau di depan sekolah ini dibuat dari tepung terigu yang dicampur dengan susu. Saat ini dijual dengan berbagai variasi warna dan taburan di atasnya (keju atau meses).",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Roti buaya",
+          "deskripsi": "salah satu kue yang paling khas di jakarta, pasalnya, roti ini adalah salah satu syarat bagi mempelai lelaki dalam pernikahan adat betawi.",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Bir pletok",
+          "deskripsi": "minuman penyegar yang dibuat dari campuran beberapa rempah, yaitu jahe, daunpandan wangi, dan serai. Minuman tradisional ini dikenal di kalangan etnis Betawi. Agar warnanya lebih menarik, orang Betawi biasanya menggunakan tambahan kayusecang, yang akan memberikan warna merah bila diseduh dengan air panas.Walaupun mengandung kata bir, bir pletok tidak mengandung alkohol. ",
+          "gambar": "5.jpg"
+        }
+      ]
+    },
+    "32": {
+      "nama": "Jawa Barat",
+      "objek_pariwisata": [
+        {
+          "nama": "Waduk Cirata",
+          "gambar": "1.jpg",
+          "deskripsi": "Waduk Cirata adalah salah satu objek wisata terkenal di provinsi Jawa Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Kawah Putih",
+          "gambar": "2.jpg",
+          "deskripsi": "Kawah Putih adalah salah satu objek wisata terkenal di provinsi Jawa Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Observatorium Bosscha",
+          "gambar": "3.jpg",
+          "deskripsi": "Observatorium Bosscha adalah salah satu objek wisata terkenal di provinsi Jawa Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Puncak-Kabupaten Bogor",
+          "gambar": "",
+          "deskripsi": "Puncak-Kabupaten Bogor adalah salah satu objek wisata terkenal di provinsi Jawa Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Kebun Raya Cibodas",
+          "gambar": "",
+          "deskripsi": "Kebun Raya Cibodas adalah salah satu objek wisata terkenal di provinsi Jawa Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Taman Bunga Nusantara",
+          "gambar": "",
+          "deskripsi": "Taman Bunga Nusantara adalah salah satu objek wisata terkenal di provinsi Jawa Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Taman Wisata Gunung Gede Pangrango",
+          "gambar": "",
+          "deskripsi": "Taman Wisata Gunung Gede Pangrango adalah salah satu objek wisata terkenal di provinsi Jawa Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Keraton Kasepuhan Cirebon",
+          "gambar": "",
+          "deskripsi": "Keraton Kasepuhan Cirebon adalah salah satu objek wisata terkenal di provinsi Jawa Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Batagor",
+          "deskripsi": "makanan dari daerah Sunda yang sudah menyebar hampir ke seluruh Indonesia. Makanan ini dibuat dari tahu yang berisi bakso dan dibungkus dengan tepung lalu digoreng, disajikan dengan sambal kacang",
+          "gambar": "1.jpg"
+        },
+        {
+          "nama": "Cireng",
+          "deskripsi": "makanan ringan yang berasal dari daerah Sunda yang dibuat dengan cara menggoreng campuran adonan yang berbahan utama tepung kanji atau tapioka. Bahan makanan ini antara lain terdiri dari tepung kanji, tepung terigu, air, merica bubuk, garam, bawang putih, kedelai, daun bawang dan minyak goreng.",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Combro",
+          "deskripsi": "Terbuat dari parutan singkong yang bagian dalamnya diisi dengan sambal oncom kemudian digoreng, karena itulah dinamai combro yang merupakan kependekan dari oncom di jero (bahasa Sunda, artinya: oncom di dalam). Bentuknya bulat lonjong. Makanan ini enak disantap saat hangat.",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Misro",
+          "deskripsi": "makanan khas dari Jawa Barat yang terbuat dari parutan singkong yang bagian dalamnya diisi dengan gula merah kemudian digoreng, karena itulah dinamai Misro yang merupakan kependekan dari amis di jero (bahasa Sunda, artinya: manis di dalam). Bentuknya bulat dan makanan ini enak disantap saat hangat",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Opak",
+          "deskripsi": "makanan khas Sunda daerah Jawa Barat yang terbuat dari tepung beras. Nutrisi yang terkandung dalam opak adalah karbohidrat. Bahan dasar pembuatan opak adalah tepung beras, garam, gula, dan bumbu bumbu penyedap lainnya. Kemudian bahan dasar dicampur menjadi sebuah adonan. Adonan kemudian dikeringkan. Setelah kering kemudian dipanggang di atas bara api.",
+          "gambar": "5.jpg"
+        }
+      ]
+    },
+    "33": {
+      "nama": "Jawa Tengah",
+      "objek_pariwisata": [
+        {
+          "nama": "Museum Jawa Tengah Ranggawarsita",
+          "gambar": "1.jpg",
+          "deskripsi": "Museum Jawa Tengah Ranggawarsita adalah salah satu objek wisata terkenal di provinsi Jawa Tengah yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Candi Mendut",
+          "gambar": "2.jpg",
+          "deskripsi": "Candi Mendut adalah salah satu objek wisata terkenal di provinsi Jawa Tengah yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Candi Borobudur",
+          "gambar": "3.jpg",
+          "deskripsi": "Candi Borobudur adalah salah satu objek wisata terkenal di provinsi Jawa Tengah yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Museum Rekor Indonesia (MURI)",
+          "gambar": "",
+          "deskripsi": "Museum Rekor Indonesia (MURI) adalah salah satu objek wisata terkenal di provinsi Jawa Tengah yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Maerokoco (Taman Mini Jawa Tengah)",
+          "gambar": "",
+          "deskripsi": "Maerokoco (Taman Mini Jawa Tengah) adalah salah satu objek wisata terkenal di provinsi Jawa Tengah yang menawarkan pengalaman menarik bagi para pengunjung."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Lumpia",
+          "deskripsi": "cemilan khas Semarang, isinya terdiri dari bambu muda(rebung) pilihan yang renyah, udang segar & telur. Bambu muda yang kami gunakan adalah bambu muda pilihan yang kami datangkan langsung dari Semarang, agar cita rasa yang khas Semarang tetap kami pertahankan. Udang segar , telur, bawang kami tambahkan ke bambu muda beserta racikan bumbu-bumbu kami untuk menghasilkan lumpia yang terbaik.",
+          "gambar": "1.jpg"
+        },
+        {
+          "nama": "Bandeng presto",
+          "deskripsi": "makanan khas Indonesia yang berasal dari daerah Pati dan Semarang, Jawa Tengah. Makanan ini dibuat dari ikan bandeng (Chanos chanos) yang dibumbui dengan bawang putih, kunyit dan garam. Ikan bandeng ini kemudian dimasak pada alas daun pisang dengan cara presto. ",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Garang Asem",
+          "deskripsi": "masakan tradisional yang saat ini jarang ditemukan. Masakan tradisional ini berasal dari Propinsi Jawa Tengah. Beberapa kota di propinsi Jawa Tengah memiliki masakan tradisional ini. Antara lain Demak, Kudus[1], Pati, dan Pekalongan",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Dawet ayu ",
+          "deskripsi": "minuman khas Banjarnegara yang sekilas mirip dengan es cendol. Segelas dawet ayu memang terdiri dari cendol, santan dan gula. Cendol dawet ayu memiliki tekstur lebih kenyal dari cendol lain.",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Nasi liwet",
+          "deskripsi": "makanan khas kota Solo. Nasi liwet adalah nasi gurih (dimasak dengan kelapa) mirip nasi uduk, yang disajikan dengan sayur labu siam, suwiran ayam (daging ayam dipotong kecil-kecil) dan areh (semacam bubur gurih dari kelapa).",
+          "gambar": "5.jpg"
+        }
+      ]
+    },
+    "34": {
+      "nama": "Daerah Istimewa Yogyakarta",
+      "objek_pariwisata": [
+        {
+          "nama": "Kebun Binatang Gembira Loka",
+          "gambar": "1.jpg",
+          "deskripsi": "Kebun Binatang Gembira Loka adalah salah satu objek wisata terkenal di provinsi Daerah Istimewa Yogyakarta yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Istana Air Taman Sari",
+          "gambar": "2.jpg",
+          "deskripsi": "Istana Air Taman Sari adalah salah satu objek wisata terkenal di provinsi Daerah Istimewa Yogyakarta yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Candi Prambanan",
+          "gambar": "3.jpg",
+          "deskripsi": "Candi Prambanan adalah salah satu objek wisata terkenal di provinsi Daerah Istimewa Yogyakarta yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Monumen Jogja Kembali",
+          "gambar": "",
+          "deskripsi": "Monumen Jogja Kembali adalah salah satu objek wisata terkenal di provinsi Daerah Istimewa Yogyakarta yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Museum Keraton Yogyakarta",
+          "gambar": "",
+          "deskripsi": "Museum Keraton Yogyakarta adalah salah satu objek wisata terkenal di provinsi Daerah Istimewa Yogyakarta yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pemakaman Imogiri",
+          "gambar": "",
+          "deskripsi": "Pemakaman Imogiri adalah salah satu objek wisata terkenal di provinsi Daerah Istimewa Yogyakarta yang menawarkan pengalaman menarik bagi para pengunjung."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Gudeg",
+          "deskripsi": "makanan khas Yogyakarta dan Jawa Tengah yang terbuat dari nangka muda yang dimasak dengan santan. Perlu waktu berjam-jam untuk membuat masakan ini. Warna coklat biasanya dihasilkan oleh daun jati yang dimasak bersamaan. Gudeg dimakan dengan nasi dan disajikan dengan kuah santan kental (areh), ayam kampung, telur, tahu dan sambal goreng krecek. ",
+          "gambar": "1.jpg"
+        },
+        {
+          "nama": "Bakpia",
+          "deskripsi": "Bakpia adalah makanan yang terbuat dari campuran kacang hijau dengan gula, yang dibungkus dengan tepung, lalu dipanggang. ",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Gaplek",
+          "deskripsi": "bahan makanan yang diolah dari umbi ketela pohon atau singkong. Prosesnya sangat mudah; umbi singkong yang telah dipanen kemudian dikupas dan dikeringkan. Gaplek yang telah kering kemudian bisa ditumbuk sebagai tepung tapioka yang bisa dibuat bermacam-macam kue. Tepung tapioka dari gaplek selanjutnya bisa dibuat menjadi nasitiwul yang gurih. ",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Jadah tempe",
+          "deskripsi": "salah satu makanan khas yang berada di Yogyakarta. Makanan ini sangat terkenal dan hanya ada di sekitar tempat wisata Kaliurang yang berada di lereng Gunung Merapi. Jadah tempe ini bentuknya sederhana karena hanya berupa olahan ketan yang dilengkapi dengan tempe atau tahu yang diolah dengan cara dibacem. ",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Wedang uwuh",
+          "deskripsi": "minuman penyegar (tonikum) yang berasal dari kawasan Yogyakarta selatan (Kabupaten Bantul), Wedang uwuh disajikan panas/hangat, memiliki rasa manis yang berasal dari gula dan rasa pedas yang berasal dari rempah-rempah (terutama jahe) yang menyertainya. Warna cairannya merah cerah, berasal dari serutan kayu secang dan aroma harum yang ditimbulkan oleh daun kulit manis dan cengkeh",
+          "gambar": "5.jpg"
+        }
+      ]
+    },
+    "35": {
+      "nama": "Jawa Timur",
+      "objek_pariwisata": [
+        {
+          "nama": "Gunung Bromo",
+          "gambar": "gunung-bromo.jpg",
+          "deskripsi": "Gunung Bromo adalah salah satu objek wisata terkenal di provinsi Jawa Timur yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Tanjung Kodok",
+          "gambar": "2.jpg",
+          "deskripsi": "Tanjung Kodok adalah salah satu objek wisata terkenal di provinsi Jawa Timur yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pantai Pasir Putih",
+          "gambar": "3.jpg",
+          "deskripsi": "Pantai Pasir Putih adalah salah satu objek wisata terkenal di provinsi Jawa Timur yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Kebun Raya Purwodadi",
+          "gambar": "",
+          "deskripsi": "Kebun Raya Purwodadi adalah salah satu objek wisata terkenal di provinsi Jawa Timur yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Taman Safari Indonesia II",
+          "gambar": "",
+          "deskripsi": "Taman Safari Indonesia II adalah salah satu objek wisata terkenal di provinsi Jawa Timur yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Taman Nasional Bromo Tengger Semeru",
+          "gambar": "gunung-bromo.jpg",
+          "deskripsi": "Taman Nasional Bromo Tengger Semeru adalah salah satu objek wisata terkenal di provinsi Jawa Timur yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Danau Sarangan",
+          "gambar": "",
+          "deskripsi": "Danau Sarangan adalah salah satu objek wisata terkenal di provinsi Jawa Timur yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Candi Penataran",
+          "gambar": "",
+          "deskripsi": "Candi Penataran adalah salah satu objek wisata terkenal di provinsi Jawa Timur yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Jatim Park",
+          "gambar": "",
+          "deskripsi": "Jatim Park adalah salah satu objek wisata terkenal di provinsi Jawa Timur yang menawarkan pengalaman menarik bagi para pengunjung."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Rujak cingur",
+          "deskripsi": "salah satu makanan tradisional yang mudah ditemukan di daerah Jawa Timur, terutama daerah asalnya Surabaya. Terdiridari irisan beberapa jenis buah seperti timun, kerahi (krai, yaitu sejenis timun khas Jawa Timur), bengkuang, mangga muda, nanas, kedondong, kemudian ditambah lontong, tahu, tempe, bendoyo, cingur, serta sayuran seperti kecambah/taoge, kangkung, dan kacang panjang. Semua bahan tadi dicampur dengan saus atau bumbu yang terbuat dari olahan petis udang, airmatang untuk sedikit mengencerkan, gula/gula merah, cabai, kacang tanah yang digoreng, bawang goreng, garam, dan irisan tipis pisang biji hijau yang masih muda (pisang klutuk). Semua saus/bumbu dicampur dengan cara diulek",
+          "gambar": "1.jpg"
+        },
+        {
+          "nama": "Lontong kupang",
+          "deskripsi": "makanan khas daerah Jawa Timur. Makanan ini terkenal khususnya di daerah Surabaya, Sidoarjodan Pasuruan. Bahan utama yang digunakan adalah kupang putih (Corbula faba H), yaitu hewan laut semacam kerang bentuknya kecil sebesar antara biji beras dan biji kedelai. Kupang yang telah dikupas dan dimasak, ditambahkan lontong dan lentho, kemudian diberi kuah petis dan sedikit perasan jeruk nipis. Untuk menghidangkan biasanya dipadukan dengan sate kerang, serta minuman air kelapa muda atau degan. ",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Nasi krawu",
+          "deskripsi": "makanan khas dari daerah Gresik, Jawa Timur. Cirinya adalah nasinya yang pulen dan disajikan dengan daun pisang. Lauknya dapat berupa sayatan daging sapi, semur daging, jeroan sapi, sambal terasi dan serundeng.",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Rujak Soto",
+          "deskripsi": "masakan khas dari daerah Banyuwangi, Jawa Timur. Masakan ini merupakan paduan unik antara rujak cingur dengan soto babat. Biasanya rujak disajikan terlebih dahulu, kemudian disiram dengan kuah soto berikut babatnya. Rasanya juga khas, ada unsur soto sekaligus rasa rujak dengan aroma terasinya. Rujak soto kadang disajikan dengan es temulawak.",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Pudak",
+          "deskripsi": "makanan atau kue Kabupaten Gresik, Jawa Timur, Indonesia. Makanan ini terbuat dari bahan tepung beras, gula pasir/gula jawa dan santan kelapa yang dimasukkan kemasan yang disebut 'Ope' yaitu pelepah daun pinang.",
+          "gambar": "5.jpg"
+        }
+      ]
+    },
+    "36": {
+      "nama": "Banten",
+      "objek_pariwisata": [
+        {
+          "nama": "Masjid Agung Banten",
+          "gambar": "1.jpg",
+          "deskripsi": "Masjid Agung Banten adalah salah satu objek wisata terkenal di provinsi Banten yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pulau Umang",
+          "gambar": "2.jpg",
+          "deskripsi": "Pulau Umang adalah salah satu objek wisata terkenal di provinsi Banten yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Taman Nasional Ujung Kulon",
+          "gambar": "3.jpg",
+          "deskripsi": "Taman Nasional Ujung Kulon adalah salah satu objek wisata terkenal di provinsi Banten yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pulau Burung",
+          "gambar": "",
+          "deskripsi": "Pulau Burung adalah salah satu objek wisata terkenal di provinsi Banten yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Gunung Krakatau",
+          "gambar": "",
+          "deskripsi": "Gunung Krakatau adalah salah satu objek wisata terkenal di provinsi Banten yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Rawadano",
+          "gambar": "",
+          "deskripsi": "Rawadano adalah salah satu objek wisata terkenal di provinsi Banten yang menawarkan pengalaman menarik bagi para pengunjung."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Sate Bandeng",
+          "deskripsi": "terbuat dari ikan bandeng yang dihancurkan dagingnya tanpa merusak kulit. Setelah lembut daging dikeluarkan lewat mulut, dibuang durinya, diberi bumbu-bumbu, di blender, lalu dimasukan dalam kulit bandeng.",
+          "gambar": "1.jpg"
+        },
+        {
+          "nama": "Rabeg Banten",
+          "deskripsi": "daging kerbau yang dipotong kecil-kecil, diberi bumbu dan rasanya pedas sekali. Hampir sama dengan daging rendang ala Minang",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Kue Jojorong",
+          "deskripsi": "terbuat dari tepung beras yang dimasak bersama santan. Setelah matang di taruh dalam wadah daun pisang dan dibawahnya diberi gula aren cair (arenga liquid palm sugar). Setelah itu di kukus",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Nasi sumsum",
+          "deskripsi": "terbuat dari nasi beras merah dan bumbu yang terbuat dari rempah-rempah yang dicampur dengan sumsum, dan dibungkus daun pisang, kemudian dibakar diatas arang.",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Kue Gipang",
+          "deskripsi": "bahan utama untuk membuatnya adalah beras ketan putih atau ketan merah. Setelah dikukus, ketan lalu didinginkan dan dicuci air bersih lalu ketan pun dijemur hingga kering. Kemudian barulah digoreng dan dicampur dengan air gula sehingga teksturnya khas sedikit lengket saat disantap.",
+          "gambar": "5.jpg"
+        }
+      ]
+    },
+    "51": {
+      "nama": "Bali",
+      "objek_pariwisata": [
+        {
+          "nama": "Tanah Lot",
+          "gambar": "1.jpg",
+          "deskripsi": "Tanah Lot adalah salah satu objek wisata terkenal di provinsi Bali yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pura Besakih",
+          "gambar": "2.jpg",
+          "deskripsi": "Pura Besakih adalah salah satu objek wisata terkenal di provinsi Bali yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "GWK (Garuda Wisnu Kencana)",
+          "gambar": "3.jpg",
+          "deskripsi": "GWK (Garuda Wisnu Kencana) adalah salah satu objek wisata terkenal di provinsi Bali yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pantai Kuta",
+          "gambar": "",
+          "deskripsi": "Pantai Kuta adalah salah satu objek wisata terkenal di provinsi Bali yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pantai Nusa Dua",
+          "gambar": "",
+          "deskripsi": "Pantai Nusa Dua adalah salah satu objek wisata terkenal di provinsi Bali yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Istana Tapaksiring",
+          "gambar": "",
+          "deskripsi": "Istana Tapaksiring adalah salah satu objek wisata terkenal di provinsi Bali yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pantai Sanur",
+          "gambar": "",
+          "deskripsi": "Pantai Sanur adalah salah satu objek wisata terkenal di provinsi Bali yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Sukawati",
+          "gambar": "",
+          "deskripsi": "Sukawati adalah salah satu objek wisata terkenal di provinsi Bali yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Kintamani",
+          "gambar": "",
+          "deskripsi": "Kintamani adalah salah satu objek wisata terkenal di provinsi Bali yang menawarkan pengalaman menarik bagi para pengunjung."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Betutu",
+          "deskripsi": "lauk yang terbuat dari ayam atau bebek yang utuh yang berisi bumbu, kemudian dipanggang dalam apisekam. Betutu ini telah dikenal di seluruh kabupaten di Bali. Salah satu produsen betutu adalah desa Melinggih, kecamatam payangan kabupaten Gianyar. Ayam betutu juga merupakan makanan khas Gilimanuk.",
+          "gambar": "1.jpg"
+        },
+        {
+          "nama": "Lawar",
+          "deskripsi": "masakan berupa campuran sayur-sayuran dan daging cincang yang dibumbui yang berasal dari Bali. Makanan ini lazim disajikan dalam rumah tangga di Bali atau dijual secara luas di rumah-rumah makan dengan sebutan lawar Bali. Lawar dibuat dari daging yang dicincang, sayuran, sejumlah bumbu-bumbu dan kelapa. Kadang-kadang di beberapa jenis lawar diberikan unsur yang dapat menambah rasa dari lawar itu yaitu darah dari daging itu sendiri.",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Sate lilit ",
+          "deskripsi": "salah satu kuliner Bali yang sangat populer, baik di kalangan masayarakat Bali sendiri maupun di kalangan turis, Di tempat-tempat tertentu ada juga sate lilit berbahan daging ayam dan daging babi, tetapi secara umum kebanyakan sate lilit berbahan dasar ikan laut.",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Babi guling",
+          "deskripsi": "sejenis makanan yang terbuat dari anak babibetina atau jantan yang perutnya diisikan dengan bumbu dan sayuran seperti daun ketela pohon dan lalu dipanggang sambil diputar-putar (diguling-gulingkan) sampai matang dengan ditandai dengan perubahan warna kulit menjadi kecoklatan dan renyah.",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Jejeruk",
+          "deskripsi": "makanan khas Bali yang terbuat dari jamur tiram. Sajian ini sering dimasak untuk vegetarir. Terbuat dari jamur tiram yang dicampur santan dan parutan kelapa plus bumbu-bumbu rempah lainnya.",
+          "gambar": "5.jpg"
+        }
+      ]
+    },
+    "52": {
+      "nama": "Nusa Tenggara Barat",
+      "objek_pariwisata": [
+        {
+          "nama": "Taman Mayura",
+          "gambar": "1.jpg",
+          "deskripsi": "Taman Mayura adalah salah satu objek wisata terkenal di provinsi Nusa Tenggara Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Gunung Rinjani",
+          "gambar": "2.jpg",
+          "deskripsi": "Gunung Rinjani adalah salah satu objek wisata terkenal di provinsi Nusa Tenggara Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pantai Senggigi",
+          "gambar": "3.jpg",
+          "deskripsi": "Pantai Senggigi adalah salah satu objek wisata terkenal di provinsi Nusa Tenggara Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Gili Trawangan",
+          "gambar": "",
+          "deskripsi": "Gili Trawangan adalah salah satu objek wisata terkenal di provinsi Nusa Tenggara Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Pulau Moyo",
+          "gambar": "",
+          "deskripsi": "Pulau Moyo adalah salah satu objek wisata terkenal di provinsi Nusa Tenggara Barat yang menawarkan pengalaman menarik bagi para pengunjung."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Ayam Taliwang",
+          "deskripsi": "makanan khas Lombok, Nusa Tenggara Barat yang berbahan dasar ayam yang disajikan bersama bumbu-bumbunya berupa cabai merah kering, bawang merah, bawang putih, tomat merah, terasi goreng, kencur, gula Jawa, dan garam. Biasanya disajikan bersama makanan khas Lombok lainnya seperti Plecing kangkung",
+          "gambar": "1.jpg"
+        },
+        {
+          "nama": "Sate Bulayak",
+          "deskripsi": "makanan tradisional khas Nusa Tenggara Barat yang terbuat dari daging sapi yang dilumuri dengan bumbu khas Lombok dan disajikan dengan lontong. Bumbu tersebut terdiri dari kacang tanah sangrai tumbuk yang direbus bersama santan serta beberapa bumbu dapur lainnya. Rasa dari bumbu tersebut mirip seperti bumbu kari",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Plecing kangkung",
+          "deskripsi": "3masakan khas Indonesia yang berasal dari Lombok. Plecing kangkung terdiri dari kangkung yang direbus dan disajikan dalam keadaan dingin dan segar dengan sambal tomat, yang dibuat dari Cabai rawit, garam, terasi dan tomat, dan kadangkala diberi tetesan jeruk limau. sebagai pendamping Ayam taliwang, plecing kangkung biasanya disajikan dengan tambahan sayuran seperti taoge, kacang panjang, kacang tanah goreng, ataupun urap.",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Bingka Dolu Gula Merah",
+          "deskripsi": "salah satu makanan khas NTB. Terbuat dari tepung terigu, santan, telur, dan gula merah. Rasanya manis legit",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Gecak sape",
+          "deskripsi": "masakan tradisional yang berbahan dasar tetelan, babat, hati sapi dan limpa. Rasa gurih dari masakan ini sungguh istimewa. Karena selain menggunakan santan masakan ini juga menggunakan kelapa sangrai dan wijen.",
+          "gambar": "5.jpg"
+        }
+      ]
+    },
+    "53": {
+      "nama": "Nusa Tenggara Timur",
+      "objek_pariwisata": [
+        {
+          "nama": "Pantai Kolbano",
+          "gambar": "1.jpg",
+          "deskripsi": "Pantai Kolbano adalah salah satu objek wisata terkenal di provinsi Nusa Tenggara Timur yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Danau Kelimutu",
+          "gambar": "2.jpg",
+          "deskripsi": "Danau Kelimutu adalah salah satu objek wisata terkenal di provinsi Nusa Tenggara Timur yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Taman Laut Selat Pantar",
+          "gambar": "3.jpg",
+          "deskripsi": "Taman Laut Selat Pantar adalah salah satu objek wisata terkenal di provinsi Nusa Tenggara Timur yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "pulau komodo",
+          "gambar": "",
+          "deskripsi": "pulau komodo adalah salah satu objek wisata terkenal di provinsi Nusa Tenggara Timur yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "museum bahari ende",
+          "gambar": "",
+          "deskripsi": "museum bahari ende adalah salah satu objek wisata terkenal di provinsi Nusa Tenggara Timur yang menawarkan pengalaman menarik bagi para pengunjung."
+        },
+        {
+          "nama": "Cagar Alam Gunung Mutise",
+          "gambar": "",
+          "deskripsi": "Cagar Alam Gunung Mutise adalah salah satu objek wisata terkenal di provinsi Nusa Tenggara Timur yang menawarkan pengalaman menarik bagi para pengunjung."
+        }
+      ],
+      "makanan_khas": [
+        {
+          "nama": "Se'i",
+          "deskripsi": "makanan khas Nusa Tenggara Timur yang cukup banyak ditemukan di jalan-jalan. Se'i adalah daging yang dimasak dengan cara diasap, dicampur dengan garam, dan rempah-rempah.",
+          "gambar": "1.jpg"
+        },
+        {
+          "nama": "Catemak jagung",
+          "deskripsi": "makanan penutup yang terbuat dari jagung, labu lilin, dan kacang hijau yang dimasak dengan bumbu masak penyedap rasa. Tidak seperti warnanya yang manis seperti kolak, catemak rasanya asin. ",
+          "gambar": "2.jpg"
+        },
+        {
+          "nama": "Ikan tumis pare",
+          "deskripsi": "masakan khas Nusa Tenggara Timur yang biasa dihidangkan dalam acara sunatan",
+          "gambar": "3.jpg"
+        },
+        {
+          "nama": "Kerang masak semboko",
+          "deskripsi": "masakan berbahan dasar kerang hijau khas Nusa Tenggara Timur yang biasa dihidangkan dalam acara pernikahan",
+          "gambar": "4.jpg"
+        },
+        {
+          "nama": "Moke",
+          "deskripsi": "minuman khas orang Flores. Ada moke putih dan hitam. Moke putih adalah nira hasil sadapan dari pohon lontar atau pohon enau",
+          "gambar": "5.jpg"
+        }
+      ]
+    }
+  }
+}

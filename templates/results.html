@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Search Results: {{ query }} | ExploreID</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    :root {
+      --primary: #4361ee;
+      --primary-light: #4895ef;
+      --secondary: #3f37c9;
+      --dark: #1a1a2e;
+      --light: #f8f9fa;
+      --gradient: linear-gradient(135deg, #4361ee 0%, #3f37c9 100%);
+    }
+    
+    * { 
+      box-sizing: border-box; 
+      margin: 0; 
+      padding: 0; 
+    }
+    
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    
+    /* Navbar */
+    .navbar {
+      background: var(--gradient);
+      padding: 1.5rem 2rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    
+    .navbar-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .navbar a {
+      color: white;
+      font-size: 1.8rem;
+      font-weight: 600;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .navbar a i {
+      font-size: 1.5rem;
+    }
+    
+    /* Results Header */
+    .results-header {
+      background: url('https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      margin-bottom: 2rem;
+    }
+    
+    .results-header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    
+    .header-content {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      color: white;
+      padding: 0 1rem;
+    }
+    
+    .header-content h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    .header-content p {
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+    
+    /* Results Container */
+    .container {
+      max-width: 800px;
+      margin: 0 auto 4rem;
+      padding: 0 2rem;
+      flex: 1;
+    }
+    
+    .results-count {
+      color: #666;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    
+    /* Province Card */
+    .province-card {
+      background-color: white;
+      border-radius: 1rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .province-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+    }
+    
+    .province-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--dark);
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #f0f0f0;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .province-title i {
+      color: var(--primary);
+    }
+    
+    .section-title {
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin: 1.5rem 0 1rem;
+      color: var(--secondary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .section-title i {
+      font-size: 1rem;
+    }
+    
+    .item-list {
+      list-style: none;
+      padding-left: 0;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    
+    .item-list li {
+      background-color: #f9f9f9;
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+      transition: all 0.3s ease;
+    }
+    
+    .item-list li:hover {
+      background-color: #f0f0f0;
+      transform: translateX(5px);
+    }
+    
+    .item-name {
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      color: var(--dark);
+    }
+    
+    .item-desc {
+      color: #666;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    
+    .item-image {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 0.75rem;
+      margin-top: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    
+    .item-image:hover {
+      transform: scale(1.02);
+    }
+    
+    /* No Results */
+    .no-results {
+      text-align: center;
+      padding: 3rem;
+      background-color: white;
+      border-radius: 1rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }
+    
+    .no-results i {
+      font-size: 3rem;
+      color: #ccc;
+      margin-bottom: 1rem;
+    }
+    
+    .no-results h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: var(--dark);
+    }
+    
+    .no-results p {
+      color: #666;
+      margin-bottom: 1.5rem;
+    }
+    
+    /* Back Link */
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 2rem;
+      text-decoration: none;
+      color: var(--primary);
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    
+    .back-link:hover {
+      color: var(--secondary);
+      transform: translateX(-3px);
+    }
+    
+    /* Footer */
+    footer {
+      background: var(--dark);
+      color: white;
+      padding: 3rem 2rem 2rem;
+      margin-top: auto;
+    }
+    
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+    }
+    
+    .footer-logo {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .footer-logo i {
+      color: var(--primary-light);
+    }
+    
+    .footer-about p {
+      color: #adb5bd;
+      margin-bottom: 1.5rem;
+    }
+    
+    .social-links {
+      display: flex;
+      gap: 1rem;
+    }
+    
+    .social-links a {
+      color: white;
+      background: rgba(255, 255, 255, 0.1);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+    
+    .social-links a:hover {
+      background: var(--primary);
+      transform: translateY(-3px);
+    }
+    
+    .footer-links h4 {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+      position: relative;
+      padding-bottom: 0.5rem;
+    }
+    
+    .footer-links h4::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 50px;
+      height: 2px;
+      background: var(--primary);
+    }
+    
+    .footer-links ul {
+      list-style: none;
+    }
+    
+    .footer-links li {
+      margin-bottom: 0.8rem;
+    }
+    
+    .footer-links a {
+      color: #adb5bd;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .footer-links a i {
+      font-size: 0.8rem;
+    }
+    
+    .footer-links a:hover {
+      color: white;
+      padding-left: 5px;
+    }
+    
+    .copyright {
+      text-align: center;
+      padding-top: 2rem;
+      margin-top: 2rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      color: #adb5bd;
+      font-size: 0.9rem;
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .results-header h1 {
+        font-size: 1.5rem;
+      }
+      
+      .province-card {
+        padding: 1.5rem;
+      }
+      
+      .footer-container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="{{ url_for('home') }}"><i class="fas fa-map-marked-alt"></i> ExploreID</a>
+    </div>
+  </nav>
+  
+  <div class="results-header">
+    <div class="header-content">
+      <h1>Search Results for "{{ query }}"</h1>
+      <p>Temukan wisata menajubkan di Indonesia</p>
+    </div>
+  </div>
+  
+  <div class="container">
+    {% if results %}
+      <div class="results-count">{{ results|length }} provinces found</div>
+      
+      {% for prov in results %}
+        <div class="province-card">
+          <div class="province-title">
+            <i class="fas fa-map-marker-alt"></i>
+            {{ prov.nama }}
+          </div>
+
+          {% if prov.objek_pariwisata and prov.objek_pariwisata|length > 0 %}
+            <div class="section-title">
+              <i class="fas fa-umbrella-beach"></i>
+              Tourist Attractions
+            </div>
+            <ul class="item-list">
+              {% for obj in prov.objek_pariwisata %}
+                
+                  <!-- <div class="item-name">{{ obj.nama }}</div> -->
+                 <li>
+                    <div class="item-name">{{ obj.nama }}</div>
+                    <div class="item-desc">{{ obj.konten }}</div>
+                 </li>
+                
+              {% endfor %}
+            </ul>
+          {% endif %}
+
+          {% if prov.makanan_khas and prov.makanan_khas|length > 0 %}
+            <div class="section-title">
+              <i class="fas fa-utensils"></i>
+              Local Cuisine
+            </div>
+            <ul class="item-list">
+              {% for food in prov.makanan_khas %}
+                
+                  <!-- <div class="item-name">{{ food.nama }}</div>
+                  <div class="item-desc">{{ food.deskripsi }}</div> -->
+                  <li>
+                    <div class="item-name">{{ food.nama }}</div>
+                    <div class="item-desc">{{ food.konten }}</div>
+                  </li>
+
+                
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% else %}
+      <div class="no-results">
+        <i class="fas fa-search"></i>
+        <h2>No results found for "{{ query }}"</h2>
+        <p>Try different keywords or check the spelling</p>
+        <a href="{{ url_for('home') }}" class="back-link">
+          <i class="fas fa-arrow-left"></i>
+          Back to search
+        </a>
+      </div>
+    {% endif %}
+    
+    {% if results %}
+      <a href="{{ url_for('home') }}" class="back-link">
+        <i class="fas fa-arrow-left"></i>
+        Back to search
+      </a>
+    {% endif %}
+  </div>
+  
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <div class="footer-logo"><i class="fas fa-map-marked-alt"></i> ExploreID</div>
+        <p>Your complete guide to tourism destinations in Indonesia. Find the best places to visit, stay, and eat.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Home</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Destinations</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Travel Guides</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Blog</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> About Us</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Contact</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Privacy Policy</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Terms of Service</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="#"><i class="fas fa-map-marker-alt"></i> Bangkalan, Indonesia</a></li>
+          <li><a href="#"><i class="fas fa-phone-alt"></i> +62 813 3115 8780</a></li>
+          <li><a href="#"><i class="fas fa-envelope"></i> trunojoyowisata@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="copyright">
+      &copy; 2023 ExploreID. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
