@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rafi</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f5f5;
+    }
+    .inbox-container {
+      max-width: 420px;
+      box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+    }
+    .header {
+      background: linear-gradient(to right, #ff5e57, #ff2e63);
+    }
+    .chat-item:hover {
+      background-color: #f8f9fa;
+    }
+    .product-card {
+      transition: all 0.3s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+    .discount-badge {
+      background: linear-gradient(to right, #ff5e57, #ff2e63);
+    }
+    .unread-indicator {
+      width: 8px;
+      height: 8px;
+      background-color: #ff2e63;
+    }
+    .refresh-btn:hover {
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+  <div class="inbox-container bg-white rounded-xl overflow-hidden w-full">
+    <!-- Header -->
+    <div class="header text-white p-4 flex items-center justify-between">
+      <div class="flex items-center">
+        <button class="mr-3">
+          <i class="fas fa-arrow-left"></i>
+        </button>
+      </div>
+      <h1 class="text-xl font-bold justify-center">Inbox</h1>
+      <button>
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+
+    <!-- Tab Navigation -->
+    <div class="flex border-b">
+      <button class="flex-1 py-3 font-medium text-pink-600 border-b-2 border-pink-600">
+        Chat
+      </button>
+      <button class="flex-1 py-3 font-medium text-gray-500">
+        Notifikasi
+      </button>
+    </div>
+
+    <!-- Chat List -->
+    <div class="p-3">
+      <div class="flex items-center justify-between mb-3">
+        <h2 class="font-semibold">Chat Penjual</h2>
+        <span class="text-xs text-gray-500">Lihat semua</span>
+      </div>
+
+      <div class="space-y-2">
+        <!-- Chat Item 1 -->
+        <div class="chat-item flex items-center p-3 rounded-lg cursor-pointer">
+          <div class="relative mr-3">
+            <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center">
+              <i class="fas fa-store text-blue-500 text-xl"></i>
+            </div>
+            <div class="unread-indicator rounded-full absolute top-0 right-0"></div>
+          </div>
+          <div class="flex-1">
+            <div class="flex justify-between items-center">
+              <h3 class="font-semibold">Chat Gadbot</h3>
+              <span class="text-xs text-gray-400">12.30</span>
+            </div>
+            <p class="text-sm text-gray-500 truncate">Pesanan Anda telah dikirim</p>
+          </div>
+        </div>
+
+        <!-- Chat Item 2 -->
+        <div class="chat-item flex items-center p-3 rounded-lg cursor-pointer">
+          <div class="relative mr-3">
+            <div class="w-12 h-12 rounded-full bg-yellow-100 flex items-center justify-center">
+              <i class="fas fa-comment-dots text-yellow-500 text-xl"></i>
+            </div>
+          </div>
+          <div class="flex-1">
+            <div class="flex justify-between items-center">
+              <h3 class="font-semibold">Ulasan</h3>
+              <span class="text-xs text-gray-400">Kemarin</span>
+            </div>
+            <p class="text-sm text-gray-500 truncate">Beri penilaian untuk produk Anda</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="px-4">
+      <div class="border-t border-gray-100"></div>
+    </div>
+
+    <!-- Recommendations -->
+    <div class="p-4">
+      <div class="flex items-center justify-between mb-3">
+        <h2 class="font-semibold">Rekomendasi Untuk Anda</h2>
+        <button id="refresh-btn" class="text-pink-600 text-sm font-medium flex items-center transition-transform">
+          <i class="fas fa-sync-alt mr-1"></i> Refresh
+        </button>
+      </div>
+
+      <div class="grid grid-cols-2 gap-3">
+        <!-- Product 1 -->
+        <div class="product-card bg-white p-3 rounded-lg border border-gray-100 cursor-pointer">
+          <div class="relative mb-2">
+            <img src="xiaomi-15-ultra-silver-chrome-thumbnail.jpg" alt="Xicomi 15 Ultra" class="w-full h-32 object-contain rounded"/>
+            <!-- <div class="discount-badge text-white text-xs font-bold px-2 py-1 rounded absolute top-2 right-2">
+              19%
+            </div> -->
+          </div>
+          <h3 class="font-semibold text-sm mb-1 truncate">Xiaomi 15 Ultra</h3>
+          <div class="flex items-center mb-1">
+            <span class="text-pink-600 font-bold text-sm">Rp16.999.000</span>
+          </div>
+          <div class="flex items-center text-xs text-gray-400">
+            <i class="fas fa-star text-yellow-400 mr-1"></i>
+            <span>4.9</span>
+            <span class="mx-1">•</span>
+            <span>4:3</span>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card bg-white p-3 rounded-lg border border-gray-100 cursor-pointer">
+          <div class="relative mb-2">
+            <img src="iPhone_16_Pro_Max_White_Titanium_PDP_Image_Position_1a_White_Titanium_Color__ID-ID-scaled.jpg" alt="iPhone 16 Pro" class="w-full h-32 object-contain rounded"/>
+            <!-- <div class="discount-badge text-white text-xs font-bold px-2 py-1 rounded absolute top-2 right-2">
+              5%
+            </div> -->
+          </div>
+          <h3 class="font-semibold text-sm mb-1 truncate">iPhone 16 Pro 256GB</h3>
+          <div class="flex items-center mb-1">
+            <span class="text-pink-600 font-bold text-sm">Rp15.700.000</span>
+          </div>
+          <div class="flex items-center text-xs text-gray-400">
+            <i class="fas fa-star text-yellow-400 mr-1"></i>
+            <span>4.8</span>
+            <span class="mx-1">•</span>
+            <span>4:5</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Navigation (moved inside container) -->
+    <div class="bg-white shadow-inner flex justify-around items-center py-3 rounded-b-xl border-t">
+      <button class="text-gray-400 flex flex-col items-center">
+        <i class="fas fa-home text-xl"></i>
+        <span class="text-xs mt-1">Home</span>
+      </button>
+      <button class="text-gray-400 flex flex-col items-center">
+        <i class="fas fa-search text-xl"></i>
+        <span class="text-xs mt-1">Search</span>
+      </button>
+      <button class="text-pink-600 flex flex-col items-center">
+        <i class="fas fa-comment-dots text-xl"></i>
+        <span class="text-xs mt-1">Inbox</span>
+      </button>
+      <button class="text-gray-400 flex flex-col items-center">
+        <i class="fas fa-user text-xl"></i>
+        <span class="text-xs mt-1">Account</span>
+      </button>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Chat item click
+      document.querySelectorAll('.chat-item').forEach(item => {
+        item.addEventListener('click', function () {
+          const title = this.querySelector('h3').textContent;
+          alert(`Membuka chat: ${title}`);
+        });
+      });
+
+      // Product card click
+      document.querySelectorAll('.product-card').forEach(card => {
+        card.addEventListener('click', function () {
+          const productName = this.querySelector('h3').textContent;
+          const price = this.querySelector('.text-pink-600').textContent;
+          alert(`Membuka detail produk:\n${productName}\n${price}`);
+        });
+      });
+
+      // Refresh button
+      const refreshBtn = document.getElementById('refresh-btn');
+      refreshBtn.addEventListener('click', function () {
+        this.classList.add('animate-spin');
+        setTimeout(() => {
+          this.classList.remove('animate-spin');
+          alert('Rekomendasi telah diperbarui!');
+        }, 1000);
+      });
+
+      // Tab switching
+      const tabs = document.querySelectorAll('.flex.border-b button');
+      tabs.forEach(tab => {
+        tab.addEventListener('click', function () {
+          tabs.forEach(t => {
+            t.classList.remove('text-pink-600', 'border-pink-600');
+            t.classList.add('text-gray-500');
+          });
+          this.classList.add('text-pink-600', 'border-pink-600');
+          this.classList.remove('text-gray-500');
+        });
+      });
+    });
+  </script>
+</body>
+</html>

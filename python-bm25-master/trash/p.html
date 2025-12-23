@@ -1,0 +1,276 @@
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description"
+    content="SIVITAS (Sistem Evaluasi Akademik Tahun Ajaran Semester) adalah sistem berbasis web yang dirancang untuk mempermudah evaluasi akademik dan pencatatan kehadiran. Platform ini menyediakan sistem kuesioner lengkap untuk mengevaluasi proses pembelajaran, membantu pendidik dan administrator dalam mengumpulkan umpan balik secara efisien. Selain itu, SIVITAS memiliki fitur absensi online berbasis QR Code yang menggantikan metode kertas tradisional, sehingga meningkatkan manajemen waktu dan akurasi dalam pelacakan kehadiran.">
+  <title>Login - Sistem Evaluasi Akademik Tahun Ajaran Semester</title>
+      <link rel="icon" type="image/x-icon" href="https://sivitas.sakera.id/images/logo-tif.png">
+    <link rel="preload" as="style" href="https://sivitas.sakera.id/build/assets/app-nfVdqOoe.css" /><link rel="modulepreload" href="https://sivitas.sakera.id/build/assets/app-Bra6MsPr.js" /><link rel="stylesheet" href="https://sivitas.sakera.id/build/assets/app-nfVdqOoe.css" /><script type="module" src="https://sivitas.sakera.id/build/assets/app-Bra6MsPr.js"></script>  <link rel="stylesheet" href="https://cdn.datatables.net/2.1.2/css/dataTables.dataTables.css" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/3.1.0/css/buttons.dataTables.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.datatables.net/2.1.2/js/dataTables.js"></script>
+  <script src="https://cdn.datatables.net/buttons/3.1.0/js/dataTables.buttons.js"></script>
+  <script src="https://cdn.datatables.net/buttons/3.1.0/js/buttons.dataTables.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+  <script src="https://cdn.datatables.net/buttons/3.1.0/js/buttons.html5.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/3.1.0/js/buttons.print.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+      
+      
+  <header class="bg-white min-h-14 flex flex-col justify-center">
+  <div class="max-w-screen-xl mx-auto px-4 h-full flex flex-wrap justify-between items-center text-xs gap-x-2">
+    <div class="flex items-center gap-1">
+      <svg class="w-5 h-5 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+        width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+        <path fill-rule="evenodd"
+          d="M11.293 3.293a1 1 0 0 1 1.414 0l6 6 2 2a1 1 0 0 1-1.414 1.414L19 12.414V19a2 2 0 0 1-2 2h-3a1 1 0 0 1-1-1v-3h-2v3a1 1 0 0 1-1 1H7a2 2 0 0 1-2-2v-6.586l-.293.293a1 1 0 0 1-1.414-1.414l2-2 6-6Z"
+          clip-rule="evenodd" />
+      </svg>
+      Jl. Raya Telang, PO BOX 2 Kamal, Bangkalan
+    </div>
+    <div class="flex items-center gap-1">
+      <svg class="w-5 h-5 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+        width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+        <path
+          d="M7.978 4a2.553 2.553 0 0 0-1.926.877C4.233 6.7 3.699 8.751 4.153 10.814c.44 1.995 1.778 3.893 3.456 5.572 1.68 1.679 3.577 3.018 5.57 3.459 2.062.456 4.115-.073 5.94-1.885a2.556 2.556 0 0 0 .001-3.861l-1.21-1.21a2.689 2.689 0 0 0-3.802 0l-.617.618a.806.806 0 0 1-1.14 0l-1.854-1.855a.807.807 0 0 1 0-1.14l.618-.62a2.692 2.692 0 0 0 0-3.803l-1.21-1.211A2.555 2.555 0 0 0 7.978 4Z" />
+      </svg>
+      031-3011147
+    </div>
+    <div class="flex items-center gap-1">
+      <svg class="w-5 h-5 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+        width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+        <path
+          d="M2.038 5.61A2.01 2.01 0 0 0 2 6v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6c0-.12-.01-.238-.03-.352l-.866.65-7.89 6.032a2 2 0 0 1-2.429 0L2.884 6.288l-.846-.677Z" />
+        <path
+          d="M20.677 4.117A1.996 1.996 0 0 0 20 4H4c-.225 0-.44.037-.642.105l.758.607L12 10.742 19.9 4.7l.777-.583Z" />
+      </svg>
+      <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bed7d0d8d1ccd3dfcad7d5dffecacccbd0d1d4d1c7d190dfdd90d7da">[email&#160;protected]</a>
+    </div>
+    <div>
+      <ul class="flex gap-2">
+        <li>
+          <a href="https://www.facebook.com/informatika.trunojoyo/" target="_blank">
+            <svg class="w-5 h-5 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+              <path fill-rule="evenodd"
+                d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
+                clip-rule="evenodd" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/tifutm.official/" target="_blank">
+            <svg class="w-5 h-5 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path fill="currentColor" fill-rule="evenodd"
+                d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
+                clip-rule="evenodd" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            <svg class="w-5 h-5 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+              <path fill-rule="evenodd"
+                d="M22 5.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.343 8.343 0 0 1-2.605.981A4.13 4.13 0 0 0 15.85 4a4.068 4.068 0 0 0-4.1 4.038c0 .31.035.618.105.919A11.705 11.705 0 0 1 3.4 4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 6.1 13.635a4.192 4.192 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 2 18.184 11.732 11.732 0 0 0 8.291 20 11.502 11.502 0 0 0 19.964 8.5c0-.177 0-.349-.012-.523A8.143 8.143 0 0 0 22 5.892Z"
+                clip-rule="evenodd" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<nav class="sticky top-0 z-50 bg-primary-200 border-primary-200 dark:bg-gray-800 dark:border-gray-700 border-b-2">
+  <div class="max-w-screen-xl flex items-center justify-between mx-auto p-4 gap-4">
+    <a href="/" class="flex items-center space-x-3 w-fit rtl:space-x-reverse">
+      <img src="https://sivitas.sakera.id/images/logo-utm.png" class="h-8 md:h-10" style="filter: drop-shadow(0 0 5px white);"
+        alt="UTM Logo" />
+              <img src="https://sivitas.sakera.id/images/logo-tif.png" class="h-8 md:h-10"
+          style="filter: drop-shadow(0 0 5px white);" alt="Logo" />
+            <div class="flex flex-col">
+        <h1 class="text-xl font-bold sm:text-2xl whitespace-nowrap dark:text-white text-primary-700">SIVITAS
+        </h1>
+        <p class="text-xs font-medium text-gray-800 dark:text-white">Sistem Evaluasi Akademik Tahun Ajaran Semester</p>
+      </div>
+    </a>
+    <div class="flex">
+              <a href="https://sivitas.sakera.id"
+          class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Home</a>
+          </div>
+  </div>
+</nav>
+
+  <div class="flex flex-col dark:bg-gray-900">
+    <section
+    class="relative min-h-[calc(100svh-7rem)] overflow-hidden bg-center bg-no-repeat bg-cover bg-gray-400 bg-blend-multiply"
+    style="background-image: url('https://sivitas.sakera.id/images/background.png');">
+    <div
+      class="relative mx-auto max-w-screen-xl min-h-[inherit] px-4 flex flex-col justify-center items-center gap-8 md:gap-16 py-10">
+      <div class="text-center space-y-2 md:space-y-4">
+        <h1 class="font-bold text-white text-2xl md:text-3xl lg:text-4xl leading-tight">Sistem Evaluasi Akademik Tahun
+          Ajaran Semester</h1>
+        <h2 class="font-semibold text-white text-xl md:text-2xl lg:text-3xl">S1
+          TEKNIK INFORMATIKA</h2>
+      </div>
+
+      
+      <div
+        class="w-full max-w-md md:max-w-lg rounded-2xl bg-white dark:bg-gray-900/60 backdrop-blur-xl shadow-xl ring-1 ring-black/10 dark:ring-white/10 p-6 md:p-8">
+        
+        <form class="flex flex-col gap-6" action="https://sivitas.sakera.id/login" method="post">
+          <input type="hidden" name="_token" value="b50oL27pL8tX1XVPO3zNgFwskKBZm54x3wp2qcqK" autocomplete="off">
+          <div class="text-center">
+            <h3 class="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">Silahkan Masuk</h3>
+            <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
+              Gunakan email kampus Anda untuk melanjutkan.
+            </p>
+          </div>
+
+          
+          <div>
+            <label for="email" class="mb-2 block text-sm font-medium text-gray-900 dark:text-gray-100">
+              Email
+            </label>
+            <div class="relative">
+              <span class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+                
+                <svg class="h-5 w-5 text-gray-400 dark:text-gray-500" viewBox="0 0 24 24" fill="none"
+                  aria-hidden="true">
+                  <path d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v.4l-9 5.4-9-5.4V7Z" stroke="currentColor"
+                    stroke-width="1.8" stroke-linejoin="round" />
+                  <path d="M3 8.5V17a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5" stroke="currentColor" stroke-width="1.8"
+                    stroke-linejoin="round" />
+                </svg>
+              </span>
+              <input type="email" name="email" id="email" inputmode="email" autocomplete="email"
+                value="" required
+                class="block w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800/80 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 pl-10 pr-3 py-2.5 text-sm focus:outline-none focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 transition"
+                placeholder="example@student.trunojoyo.ac.id"
+                aria-describedby="email-help " />
+            </div>
+                      </div>
+
+          
+          <div>
+            <label for="password" class="mb-2 block text-sm font-medium text-gray-900 dark:text-gray-100">
+              Password
+            </label>
+            <div class="relative">
+              <span class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+                
+                <svg class="h-5 w-5 text-gray-400 dark:text-gray-500" viewBox="0 0 24 24" fill="none"
+                  aria-hidden="true">
+                  <path d="M7 10V8a5 5 0 1 1 10 0v2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                  <rect x="5" y="10" width="14" height="10" rx="2" stroke="currentColor"
+                    stroke-width="1.8" />
+                </svg>
+              </span>
+              <input type="password" name="password" id="password" autocomplete="current-password"
+                value="" required
+                class="block w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800/80 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 pl-10 pr-11 py-2.5 text-sm focus:outline-none focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 transition"
+                placeholder="••••••••" aria-describedby="" />
+              <button type="button" id="toggle-password" aria-label="Tampilkan/sembunyikan password"
+                aria-pressed="false"
+                class="absolute inset-y-0 right-0 flex items-center px-3 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                
+                <svg id="eye-icon" class="h-5 w-5" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M3.933 13.909A4.357 4.357 0 0 1 3 12c0-1 4-6 9-6m7.6 3.8A5.068 5.068 0 0 1 21 12c0 1-3 6-9 6-.314 0-.62-.014-.918-.04M5 19 19 5m-4 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                </svg>
+              </button>
+            </div>
+                      </div>
+
+          
+          <button type="submit"
+            class="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-500/30 active:scale-[.99] transition">
+            Masuk
+          </button>
+
+          
+          <div class="flex items-center gap-4">
+            <div class="h-px w-full bg-gray-200 dark:bg-gray-700"></div>
+            <span class="text-xs font-medium text-gray-500 dark:text-gray-400">ATAU</span>
+            <div class="h-px w-full bg-gray-200 dark:bg-gray-700"></div>
+          </div>
+
+          
+          <div class="flex justify-center">
+            <a href="https://sivitas.sakera.id/login/google"
+              class="inline-flex w-full items-center justify-center gap-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2.5 text-sm font-medium text-gray-800 dark:text-gray-100 shadow-sm hover:bg-gray-50 dark:hover:bg-gray-800/80 focus:outline-none focus:ring-4 focus:ring-gray-500/20 transition">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 48 48"
+                aria-hidden="true">
+                <path fill="#FFC107"
+                  d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12 c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24 c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z">
+                </path>
+                <path fill="#FF3D00"
+                  d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039 l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z">
+                </path>
+                <path fill="#4CAF50"
+                  d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36 c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z">
+                </path>
+                <path fill="#1976D2"
+                  d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571 c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z">
+                </path>
+              </svg>
+              <span>Login dengan Google</span>
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+      (function() {
+        const btn = document.getElementById('toggle-password');
+        const input = document.getElementById('password');
+        const icon = document.getElementById('eye-icon');
+
+        if (!btn || !input || !icon) return;
+
+        btn.addEventListener('click', () => {
+          const isHidden = input.type === 'password';
+          input.type = isHidden ? 'text' : 'password';
+          btn.setAttribute('aria-pressed', String(isHidden));
+
+          icon.innerHTML = isHidden ?
+            `<path stroke="currentColor" stroke-width="2" d="M21 12c0 1.2-4.03 6-9 6s-9-4.8-9-6c0-1.2 4.03-6 9-6s9 4.8 9 6Z"/><path stroke="currentColor" stroke-width="2" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>` :
+            `<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.933 13.909A4.357 4.357 0 0 1 3 12c0-1 4-6 9-6m7.6 3.8A5.068 5.068 0 0 1 21 12c0 1-3 6-9 6-.314 0-.62-.014-.918-.04M5 19 19 5m-4 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>`;
+        });
+      })();
+    </script>
+
+      </section>
+  </div>
+
+  <footer class="bg-primary-200 dark:bg-gray-800">
+  <div class="max-w-screen-xl container mx-auto w-full py-6 px-4">
+    <div class="flex flex-col items-center sm:flex-row sm:justify-between">
+      <span class="inline-block text-sm font-semibold text-gray-800 dark:text-white sm:text-center">©
+        2024 - 2025
+        <a href="https://sakera.id" class="hover:underline text-primary-700" target="_blank"
+          rel="noopener noreferrer">SAKERA</a>. All Rights Reserved.
+      </span>
+      <span class="inline-block text-sm font-semibold text-gray-800 dark:text-white sm:text-center">Develop by
+        <a href="https://sakera.id" class="hover:underline text-primary-700">Devormatics</a>.
+      </span>
+    </div>
+  </div>
+</footer>
+</body>
+
+</html>
